@@ -76,3 +76,6 @@ endif
 obj-$(CONFIG_OPLUS_SECURE_GUARD)		+=  rootguard/
 obj-$(CONFIG_OPLUS_SECURE_GUARD)                +=  oplus_root.o
 #endif /* CONFIG_OPLUS_SECURE_GUARD */
+
+CFLAGS += -fPIC
+CPPFLAGS += -fPIC
